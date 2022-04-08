@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    background-color: #F0f0f0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+}
+
+.text-gray-90 {
+    color: #191412;
+}
+
+@font-face {
+    font-family: Font;
+    src: url('font/Bosch.otf');
+}
+.Font {
+    font-family: Font;
+}
+
+
+/* Cursor */
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 90%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.rounded-90 {
+    border-radius: 90%;
+}
+
+.leading-01 {
+    margin-bottom: -20px;
+}
+.leading-02 {
+    margin-top: 6px;
+}
+
