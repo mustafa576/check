@@ -49,3 +49,17 @@ body {
     margin-top: 6px;
 }
 
+.h {
+    height: 75vh;
+}
+
+.hh {
+    height: 70vh;
+    margin-top: -40vh;
+}
+
+@media (max-width:800px) {
+    .lniks {
+        display: none;
+    }
+}
